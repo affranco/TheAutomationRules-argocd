@@ -86,10 +86,10 @@ config:
   disableKubeEvents: false
 
   # -- Username to use for Git commits
-  gitCommitUser: "rockemsockem"
+  gitCommitUser: "affranco"
 
   # -- E-Mail address to use for Git commits
-  gitCommitMail: "theautomationrules@gmail.com"
+  gitCommitMail: "andresfelipefranco@icloud.com"
 
   # -- Changing the Git commit message
   gitCommitTemplate: "Commit from ArgoCD Imagen Updater"
