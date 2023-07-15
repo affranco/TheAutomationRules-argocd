@@ -10,7 +10,7 @@ spec:
 
   sourceRepos:
     #- '*'
-    - https://github.com/The-Automation-Rules/argocd-demo.git
+    - https://github.com/affranco/TheAutomationRules-argocd.git
 
   destinations:
     - namespace: '*'
