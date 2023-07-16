@@ -29,4 +29,7 @@ Ahora vamos a generar una nueva version 0.1.1 y siguientes versiones
 VERSION=0.1.1 && \
     docker build --build-arg FROM_IMG="nginx" --build-arg FROM_VER="1.22.1" --build-arg VERSION="$VERSION" -t ghcr.io/theautomationrules/nginx-demo-arm:$VERSION docker/nginx && \
     docker push ghcr.io/theautomationrules/nginx-demo-arm:$VERSION
+
+
+    docker pull ghcr.io/theautomationrules/nginx-demo-arm:0.1.1
 ```
